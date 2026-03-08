@@ -15,3 +15,14 @@ Use smaler base image
 ## For device
 Increasing disk capacity 
 Clearing the cache run apt-get update && apt-get install -y nodejs npm && rm -rf/var/lib/apt/list*
+
+
+## Set up email notifications about (No space on device ) to be sent to our mailbox.
+## Set up regular cache cleaning via cronjob.
+## Limit build content in Docker.
+Set up cleaning in GitHub Action.
+Run Docker after each job 
+docker system prune -f
+docker image prune -f
+docker container prune -f
+docker volume prune -f
