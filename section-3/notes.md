@@ -1,8 +1,3 @@
-## Set up email notifications about application availability to be sent to our mailbox.
-## Set up regular cache cleaning via cronjob.
-## Limit build content in Docker.
-Set up cleaning in GitHub Action.
-Run Docker after each job...
 # Throught process Task A production went down 
 Find where I'm having problems in production
 
