@@ -1,6 +1,6 @@
 # DevOpsGroup
 DevOps Academy Assignment
-## Section 1  Uloha taka taka taka :-) Implementation 
+## Section 1 Implementation 
 ### Hands-on work with Terraform, Docker, Kubernetes, etc. 
 
  Task B – Dockerize a Python Web App 
