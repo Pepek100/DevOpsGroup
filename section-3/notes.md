@@ -18,10 +18,13 @@ Ask whether it affected only one or more users
 - ```ps aux | grep tomcat```
 ## check if the port is correct
 - ```netstat -tulpn```
-## I use commnad -  
+## check connection 
 - ```ping```
-## Set up email notifications about application availability to be sent to our mailbox.
-## If the application is deployed, a new release is made; if it crashes, a rollback to the original version is performed
+### If the application is redeployed or Updated and than it crashed, a rollback can be performed to the previous version.
 ## Verify that the application is working after the incident. 
+
+# Prevention 
+## Set up email notifications about application availability. 
 ## RCA- root cause analysis will be performed where the problem occurred
+## Monitoring alert (Prometheus, Grafana, Dynatrace)
 
